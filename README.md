@@ -2,7 +2,7 @@
 
 # Plantillas Sistema de Usuarios con Bootstrap
 
-Esta es una plantilla para desarrollar aplicaciones CRUD con una interfaz de usuario basada en Bootstrap 5. Puedes utilizar esta plantilla como punto de partida para tus proyectos web que involucren operaciones básicas de Crear, Leer, Actualizar y Eliminar.
+Este proyecto proporciona un conjunto de plantillas de interfaz de usuario (UI) para un sistema de autenticación de usuarios. Las plantillas están diseñadas utilizando Bootstrap, lo que asegura un diseño atractivo, responsivo y fácil de personalizar.
 
 ## Requisitos
 
@@ -33,10 +33,17 @@ plantillas-sistema-usuarios-bootstrap/
 ```
 
 - `css/`: Carpeta que contiene los archivos CSS necesarios, como un archivo de estilo personalizado (estilo.css).
-- `link_request.html`: Página para solicitar nueva contraseña.
-- `login.html`: Página para iniciar sesión.
-- `register.html`: Página para registrar un nuevo usuario.
-- `reset_password.html`: Página para cambiar contraseña.
+- `link_request.html`: Página para solicitar un enlace de restablecimiento de contraseña.
+- `login.html`: Página de inicio de sesión para que los usuarios puedan acceder a sus cuentas.
+- `register.html`: Página de registro para que los nuevos usuarios puedan crear una cuenta.
+- `reset_password.html`:  Página para restablecer la contraseña utilizando el enlace recibido.
+
+## Capturas
+
+| [<img src="images/login.png" width=500><br><sub>login.html</sub>](login.html) |  [<img src="images/register.png" width=500><br><sub>register.html</sub>](register.html) |
+| :---: | :---: |
+| [<img src="images/link_request.png" width=500><br><sub>link_request.html</sub>](link_request.html) |  [<img src="images/reset_password.png" width=500><br><sub>reset_password.html</sub>](reset_password.html) |
+
 
 ## Tecnologías utilizadas
 
